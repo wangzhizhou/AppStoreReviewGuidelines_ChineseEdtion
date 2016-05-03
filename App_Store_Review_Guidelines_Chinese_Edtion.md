@@ -7,64 +7,62 @@ We're pleased that you want to invest your talents and time to develop applicati
 
 We view Apps different than books or songs, which we do not curate. If you want to criticize a religion, write a book. If you want to describe sex, write a book or a song, or create a medical App. It can get complicated, but we have decided to not allow certain kinds of content in the App Store. It may help to keep some of our broader themes in mind:
 
-We have lots of kids downloading lots of Apps. Parental controls work great to protect kids, but you have to do your part too. So know that we're keeping an eye out for the kids.
+* We have lots of kids downloading lots of Apps. Parental controls work great to protect kids, but you have to do your part too. So know that we're keeping an eye out for the kids.
 
-We have over a million Apps in the App Store. If your App doesn't do something useful, unique or provide some form of lasting entertainment, or if your app is plain creepy, it may not be accepted.
+* We have over a million Apps in the App Store. If your App doesn't do something useful, unique or provide some form of lasting entertainment, or if your app is plain creepy, it may not be accepted.
 
-If your App looks like it was cobbled together in a few days, or you're trying to get your first practice App into the store to impress your friends, please brace yourself for rejection. We have lots of serious developers who don't want their quality Apps to be surrounded by amateur hour.
+* If your App looks like it was cobbled together in a few days, or you're trying to get your first practice App into the store to impress your friends, please brace yourself for rejection. We have lots of serious developers who don't want their quality Apps to be surrounded by amateur hour.
 
-We will reject Apps for any content or behavior that we believe is over the line. What line, you ask? Well, as a Supreme Court Justice once said, "I'll know it when I see it". And we think that you will also know it when you cross it.
+* We will reject Apps for any content or behavior that we believe is over the line. What line, you ask? Well, as a Supreme Court Justice once said, "I'll know it when I see it". And we think that you will also know it when you cross it.
 
-If your App is rejected, we have a Review Board that you can appeal to. 
+* If your App is rejected, we have a Review Board that you can appeal to. If you run to the press and trash us, it never helps.
 
-If you run to the press and trash us, it never helps.
+* If you attempt to cheat the system (for example, by trying to trick the review process, steal data from users, copy another developer's work, or manipulate the ratings) your Apps will be removed from the store and you will be expelled from the developer program.
 
-If you attempt to cheat the system (for example, by trying to trick the review process, steal data from users, copy another developer's work, or manipulate the ratings) your Apps will be removed from the store and you will be expelled from the developer program.
-
-This is a living document, and new Apps presenting new questions may result in new rules at any time. Perhaps your App will trigger this.
+* This is a living document, and new Apps presenting new questions may result in new rules at any time. Perhaps your App will trigger this.
 
 Lastly, we love this stuff too, and honor what you do. We're really trying our best to create the best platform in the world for you to express your talents and make a living too. If it sounds like we're control freaks, well, maybe it's because we're so committed to our users and making sure they have a quality experience with our products. Just like almost all of you are, too.
 
 ## Table of Contents
 
-* [Terms and conditions](#Terms and conditions)
-* [Functionality](#Functionality)
-* [Metadata](#Metadata)
-* [Location](#Location)
-* [Push Notifications](#Push Notifications)
-* [Game Center](#Game Center)
-* [Advertising](#Advertising)
-* [Content and Intellectual Property Rights](#Content and Intellectual Property Rights)
-* [Media content](#Media content)
-* [User interface](#User interface)
-* [Purchasing and currencies](#Purchasing and currencies)
-* [Scraping and aggregation](#Scraping and aggregation)
-* [Damage or injury](#Damage or injury)
-* [Personal attacks](#Personal attacks)
-* [Violence](#Violence)
-* [Objectionable content](#Objectionable content)
-* [Privacy](#Privacy)
-* [Pornography](#Pornography)
-* [Religion, culture, and ethnicity](#Religion, culture, and ethnicity)
-* [Contests, sweepstakes, lotteries, raffles, and gambling](#Contests, sweepstakes, lotteries, raffles, and gambling)
-* [Charities and contributions](#Charities and contributions)
-* [Legal requirements](#Legal requirements)
-* [Wallet](#Wallet)
-* [Kids Category](#Kids Category)
-* [Extensions](#Extensions)
-* [HomeKit](#HomeKit)
-* [HealthKit, CareKit, and Human Subject Research](#HealthKit, CareKit, and Human Subject Research)
-* [TestFlight](#TestFlight)
-* [Apple Pay](#Apple Pay)
-* [Apple Music API](#Apple Music API)
+1. [Terms and conditions](#Terms and conditions)
+2. [Functionality](#Functionality)
+3. [Metadata](#Metadata)
+4. [Location](#Location)
+5. [Push Notifications](#Push Notifications)
+6. [Game Center](#Game Center)
+7. [Advertising](#Advertising)
+8. [Content and Intellectual Property Rights](#Content and Intellectual Property Rights)
+9. [Media content](#Media content)
+10. [User interface](#User interface)
+11. [Purchasing and currencies](#Purchasing and currencies)
+12. [Scraping and aggregation](#Scraping and aggregation)
+13. [Damage or injury](#Damage or injury)
+14. [Personal attacks](#Personal attacks)
+15. [Violence](#Violence)
+16. [Objectionable content](#Objectionable content)
+17. [Privacy](#Privacy)
+18. [Pornography](#Pornography)
+19. [Religion, culture, and ethnicity](#Religion, culture, and ethnicity)
+20. [Contests, sweepstakes, lotteries, raffles, and gambling](#Contests, sweepstakes, lotteries, raffles, and gambling)
+21. [Charities and contributions](#Charities and contributions)
+22. [Legal requirements](#Legal requirements)
+23. [Wallet](#Wallet)
+24. [Kids Category](#Kids Category)
+25. [Extensions](#Extensions)
+26. [HomeKit](#HomeKit)
+27. [HealthKit, CareKit, and Human Subject Research](#HealthKit, CareKit, and Human Subject Research)
+28. [TestFlight](#TestFlight)
+29. [Apple Pay](#Apple Pay)
+30. [Apple Music API](#Apple Music API)
 
 <span id="Terms and conditions"/>
-### Terms and conditions
+### 1. Terms and conditions
 
-As a developer of Apps for the App Store you are bound by the terms of the **Program License Agreement** (PLA), **Human Interface Guidelines** (HIG), and any other licenses or contracts between you and Apple. The following rules and examples are intended to assist you in gaining acceptance for your App in the App Store, not to amend or remove provisions from any other agreement.
+* As a developer of Apps for the App Store you are bound by the terms of the **Program License Agreement** (PLA), **Human Interface Guidelines** (HIG), and any other licenses or contracts between you and Apple. The following rules and examples are intended to assist you in gaining acceptance for your App in the App Store, not to amend or remove provisions from any other agreement.
 
 <span id="Functionality"/>
-### Functionality
+### 2. Functionality
 
 * Apps that crash will be rejected
 
@@ -110,9 +108,9 @@ As a developer of Apps for the App Store you are bound by the terms of the **Pro
 
 * Apps that arbitrarily restrict which users may use the App, such as by location or carrier, may be rejected
 
-* Apps must follow the iOS Data Storage Guidelines or they will be rejected
+* Apps must follow the **iOS Data Storage Guidelines** or they will be rejected
 
-* Apps that are offered in Newsstand must comply with schedules 1, 2 and 3 of the Program License Agreement or they will be rejected
+* Apps that are offered in Newsstand must comply with schedules 1, 2 and 3 of the **Program License Agreement** or they will be rejected
 
 * Apps that display Apps other than your own for purchase or promotion in a manner similar to or confusing with the App Store will be rejected
 
@@ -121,27 +119,42 @@ As a developer of Apps for the App Store you are bound by the terms of the **Pro
 * If your app’s core functionality doesn’t work with the Siri remote it will be rejected. The app may, however, provide enhanced functionality in connection with a game controller or other peripheral
 
 <span id="Metadata"/>
-### Metadata (name, descriptions, ratings, rankings, etc.)
-Apps or metadata that mentions the name of any other mobile platform will be rejected
-Apps with placeholder text will be rejected
-Apps with names, descriptions, screenshots, or previews not relevant to the content and functionality of the App will be rejected
-App names in iTunes Connect and as displayed on a device should be similar, so as not to cause confusion
-Small and large App icons should be similar, so as not to cause confusion
-Apps with App icons, screenshots, previews, and images displayed when an Apple TV app is in the top shelf of the Apple TV home screen that do not adhere to the 4+ age rating will be rejected
-Apps with Category and Genre selections that are not appropriate for the App content will be rejected
-Developers are responsible for assigning appropriate ratings to their Apps. Inappropriate ratings may be changed/deleted by Apple
-Developers are responsible for assigning appropriate keywords for their Apps. Inappropriate keywords may be changed/deleted by Apple
-Developers who attempt to manipulate or cheat the user reviews or chart ranking in the App Store with fake or paid reviews, or any other inappropriate methods will be removed from the iOS Developer Program
+### 3. Metadata (name, descriptions, ratings, rankings, etc.)
+
+* Apps or metadata that mentions the name of any other mobile platform will be rejected
+
+* Apps with placeholder text will be rejected
+
+* Apps with names, descriptions, screenshots, or previews not relevant to the content and functionality of the App will be rejected
+
+* App names in iTunes Connect and as displayed on a device should be similar, so as not to cause confusion
+
+* Small and large App icons should be similar, so as not to cause confusion
+
+* Apps with App icons, screenshots, previews, and images displayed when an Apple TV app is in the top shelf of the Apple TV home screen that do not adhere to the 4+ age rating will be rejected
+
+* Apps with Category and Genre selections that are not appropriate for the App content will be rejected
+
+* Developers are responsible for assigning appropriate ratings to their Apps. Inappropriate ratings may be changed/deleted by Apple
+
+* Developers are responsible for assigning appropriate keywords for their Apps. Inappropriate keywords may be changed/deleted by Apple
+
+* Developers who attempt to manipulate or cheat the user reviews or chart ranking in the App Store with fake or paid reviews, or any other inappropriate methods will be removed from the iOS Developer Program
 Apps that recommend that users restart their iOS device prior to installation or launch may be rejected
-Apps should have all included URLs fully functional when you submit it for review, such as support and privacy policy URLs
-Apps with screenshots, previews, and marketing text that do not clearly identify supplemental content or items that must be purchased separately (e.g. using IAP) will be rejected
-App previews may only use video screen captures of the app, narration, and textual and design overlays, or the app will be rejected
+
+* Apps should have all included URLs fully functional when you submit it for review, such as support and privacy policy URLs
+
+* Apps with screenshots, previews, and marketing text that do not clearly identify supplemental content or items that must be purchased separately (e.g. using IAP) will be rejected
+
+* App previews may only use video screen captures of the app, narration, and textual and design overlays, or the app will be rejected
 Apps with previews that display personal information of a real person without permission will be rejected
-App previews may only include music that is licensed for that purpose in all selected territories
-App previews and screenshots that include content played or streamed via the app (e.g. music, video, and related cover art) that is not licensed for use in the preview or screenshots will be rejected
+
+* App previews may only include music that is licensed for that purpose in all selected territories
+
+* App previews and screenshots that include content played or streamed via the app (e.g. music, video, and related cover art) that is not licensed for use in the preview or screenshots will be rejected
 
 <span id="Location"/>
-### Location
+### 4. Location
 
 Apps that do not notify and obtain user consent before collecting, transmitting, or using location data will be rejected
 Apps that use location-based APIs for automatic or autonomous control of vehicles, aircraft, or other devices will be rejected
