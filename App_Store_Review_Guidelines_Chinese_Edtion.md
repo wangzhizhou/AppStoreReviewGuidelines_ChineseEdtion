@@ -156,260 +156,383 @@ Apps with previews that display personal information of a real person without pe
 <span id="Location"/>
 ### 4. Location
 
-Apps that do not notify and obtain user consent before collecting, transmitting, or using location data will be rejected
-Apps that use location-based APIs for automatic or autonomous control of vehicles, aircraft, or other devices will be rejected
-Apps that use location-based APIs for emergency services will be rejected
-Location data can only be used when directly relevant to the features and services provided by the App to the user or to support approved advertising uses
-Apps using background location services must provide a reason that clarifies the purpose of the use, using mechanisms described in the Human Interface Guidelines
+* Apps that do not notify and obtain user consent before collecting, transmitting, or using location data will be rejected
+
+* Apps that use location-based APIs for automatic or autonomous control of vehicles, aircraft, or other devices will be rejected
+
+* Apps that use location-based APIs for emergency services will be rejected
+
+* Location data can only be used when directly relevant to the features and services provided by the App to the user or to support approved advertising uses
+
+* Apps using background location services must provide a reason that clarifies the purpose of the use, using mechanisms described in the Human Interface Guidelines
 
 <span id="Push Notifications"/>
-### Push Notifications
+### 5. Push Notifications
 
-Apps that provide Push Notifications without using the Apple Push Notification (APN) API will be rejected
-Apps that use the APN service without obtaining a Push Application ID from Apple will be rejected
-Apps that send Push Notifications without first obtaining user consent, as well as apps that require Push Notifications to function, will be rejected
-Apps that send sensitive personal or confidential information using Push Notifications will be rejected
-Apps that use Push Notifications to send unsolicited messages, or for the purpose of phishing or spamming will be rejected
-Apps cannot use Push Notifications to send advertising, promotions, or direct marketing of any kind
-Apps cannot charge users for use of Push Notifications
-Apps that excessively use the network capacity or bandwidth of the APN service or unduly burden a device with Push Notifications will be rejected
-Apps that transmit viruses, files, computer code, or programs that may harm or disrupt the normal operation of the APN service will be rejected
+* Apps that provide Push Notifications without using the Apple Push Notification (APN) API will be rejected
+
+* Apps that use the APN service without obtaining a Push Application ID from Apple will be rejected
+
+* Apps that send Push Notifications without first obtaining user consent, as well as apps that require Push Notifications to function, will be rejected
+
+* Apps that send sensitive personal or confidential information using Push Notifications will be rejected
+
+* Apps that use Push Notifications to send unsolicited messages, or for the purpose of phishing or spamming will be rejected
+
+* Apps cannot use Push Notifications to send advertising, promotions, or direct marketing of any kind
+
+* Apps cannot charge users for use of Push Notifications
+
+* Apps that excessively use the network capacity or bandwidth of the APN service or unduly burden a device with Push Notifications will be rejected
+
+* Apps that transmit viruses, files, computer code, or programs that may harm or disrupt the normal operation of the APN service will be rejected
 
 <span id="Game Center"/>
-### Game Center
+### 6. Game Center
 
-Apps that display any Player ID to end users or any third party will be rejected
-Apps that use Player IDs for any use other than as approved by the Game Center terms will be rejected
-Developers that attempt to reverse lookup, trace, relate, associate, mine, harvest, or otherwise exploit Player IDs, aliases, or other information obtained through Game Center will be removed from the iOS Developer Program
-Game Center information, such as Leaderboard scores, may only be used in Apps approved for use with Game Center
-Apps that use the Game Center service to send unsolicited messages, or for the purpose of phishing or spamming will be rejected
-Apps that excessively use the network capacity or bandwidth of Game Center will be rejected
+* Apps that display any Player ID to end users or any third party will be rejected
+
+* Apps that use Player IDs for any use other than as approved by the Game Center terms will be rejected
+
+* Developers that attempt to reverse lookup, trace, relate, associate, mine, harvest, or otherwise exploit Player IDs, aliases, or other information obtained through Game Center will be removed from the iOS Developer Program
+
+* Game Center information, such as Leaderboard scores, may only be used in Apps approved for use with Game Center
+
+* Apps that use the Game Center service to send unsolicited messages, or for the purpose of phishing or spamming will be rejected
+
+* Apps that excessively use the network capacity or bandwidth of Game Center will be rejected
+
 Apps that transmit viruses, files, computer code, or programs that may harm or disrupt the normal operation of the Game Center service will be rejected
 
 <span id="Advertising"/>
-### Advertising
+### 7. Advertising
 
-Apps that artificially increase the number of impressions or click-throughs of ads will be rejected
-Apps that contain empty iAd banners will be rejected
-Apps that are designed predominantly for the display of ads will be rejected
+* Apps that artificially increase the number of impressions or click-throughs of ads will be rejected
+
+* Apps that contain empty iAd banners will be rejected
+
+* Apps that are designed predominantly for the display of ads will be rejected
+
 <span id="Content and Intellectual Property Rights"/>
-### Content and Intellectual Property Rights
-Apps must comply with all terms and conditions explained in the Guidelines for Using Apple Trademarks and Copyrights and the Apple Trademark List
-Apps that suggest or infer that Apple is a source or supplier of the App, or that Apple endorses any particular representation regarding quality or functionality will be rejected
-Apps that appear confusingly similar to an existing Apple product, interface, or advertising theme will be rejected
-Apps that misspell Apple product names in their App name (i.e., GPS for Iphone, iTunz) will be rejected
-Apps may not use protected third party material such as trademarks, copyrights, patents or violate 3rd party terms of use. Authorization to use such material must be provided upon request
-Apps that include the ability to save or download music or video content from third party sources (e.g. Apple Music, YouTube, SoundCloud, Vimeo, etc) without explicit authorization from those sources will be rejected
+### 8. Content and Intellectual Property Rights
+
+* Apps must comply with all terms and conditions explained in the **Guidelines for Using Apple Trademarks and Copyrights** and the **Apple Trademark List**
+
+* Apps that suggest or infer that Apple is a source or supplier of the App, or that Apple endorses any particular representation regarding quality or functionality will be rejected
+
+* Apps that appear confusingly similar to an existing Apple product, interface, or advertising theme will be rejected
+
+* Apps that misspell Apple product names in their App name (i.e., GPS for Iphone, iTunz) will be rejected
+
+* Apps may not use protected third party material such as trademarks, copyrights, patents or violate 3rd party terms of use. Authorization to use such material must be provided upon request
+
+* Apps that include the ability to save or download music or video content from third party sources (e.g. Apple Music, YouTube, SoundCloud, Vimeo, etc) without explicit authorization from those sources will be rejected
 
 <span id="Media content"/>
-### Media content
+### 9. Media content
 
-Apps that do not use the MediaPlayer framework to access media in the Music Library will be rejected
-App user interfaces that mimic any iPod or iTunes interface will be rejected
+* Apps that do not use the MediaPlayer framework to access media in the Music Library will be rejected
 
-Audio streaming content over a cellular network may not use more than 5MB over 5 minutes
+*App user interfaces that mimic any iPod or iTunes interface will be rejected
 
-Video streaming content over a cellular network longer than 10 minutes must use HTTP Live Streaming and include a baseline 192 kbps or lower HTTP Live stream
+* Audio streaming content over a cellular network may not use more than 5MB over 5 minutes
+
+* Video streaming content over a cellular network longer than 10 minutes must use HTTP Live Streaming and include a baseline 192 kbps or lower HTTP Live stream
 
 <span id="User interface"/>
-### User interface
+### 10. User interface
 
-Apps must comply with all terms and conditions explained in the applicable Apple Human Interface Guidelines:
-iOS Human Interface Guidelines
-OS X Human Interface Guidelines
-Apple TV Human Interface Guidelines
-Apple Watch Human Interface Guidelines
-Apps that look similar to Apps bundled on iOS or Watch OS devices, including the App Store, iTunes Store, and iBooks Store, will be rejected
-Apps that do not use system provided items, such as buttons and icons, correctly and as described in the Apple iOS Human Interface Guidelines may be rejected
-Apps that create alternate desktop/home screen environments or simulate multi-App widget experiences will be rejected
-Apps that alter the functions of standard switches, such as the Volume Up/Down and Ring/Silent switches, will be rejected
-Apple and our customers place a high value on simple, refined, creative, well thought through interfaces. They take more work but are worth it. Apple sets a high bar. If your user interface is complex or less than very good, it may be rejected
-Watch Apps whose primary function is telling time will be rejected
-Apps displaying Activity rings may not modify the rings or the data they represent
+* Apps must comply with all terms and conditions explained in the applicable Apple Human Interface Guidelines:
+
+	- iOS Human Interface Guidelines
+
+	- OS X Human Interface Guidelines
+
+	- Apple TV Human Interface Guidelines
+
+	- Apple Watch Human Interface Guidelines
+
+* Apps that look similar to Apps bundled on iOS or Watch OS devices, including the App Store, iTunes Store, and iBooks Store, will be rejected
+
+* Apps that do not use system provided items, such as buttons and icons, correctly and as described in the **Apple iOS Human Interface Guidelines** may be rejected
+
+* Apps that create alternate desktop/home screen environments or simulate multi-App widget experiences will be rejected
+
+* Apps that alter the functions of standard switches, such as the Volume Up/Down and Ring/Silent switches, will be rejected
+
+* Apple and our customers place a high value on simple, refined, creative, well thought through interfaces. They take more work but are worth it. Apple sets a high bar. If your user interface is complex or less than very good, it may be rejected
+
+* Watch Apps whose primary function is telling time will be rejected
+
+* Apps displaying Activity rings may not modify the rings or the data they represent
 
 <span id="Purchasing and currencies"/>
-### Purchasing and currencies
+### 11. Purchasing and currencies
 
-Apps that unlock or enable additional features or functionality with mechanisms other than the App Store will be rejected
-Apps utilizing a system other than the In-App Purchase API (IAP) to purchase content, functionality, or services in an App will be rejected
-Apps using IAP to purchase physical goods or goods and services used outside of the App will be rejected
-Apps that use IAP to purchase credits or other currencies must consume those credits within the App
-Apps that use IAP to purchase credits or other currencies that expire will be rejected
-Content subscriptions using IAP must last a minimum of 7 days and be available to the user from all of their iOS devices
-Apps that use IAP to purchase items must assign the correct Purchasability type
+* Apps that unlock or enable additional features or functionality with mechanisms other than the App Store will be rejected
+
+* Apps utilizing a system other than the In-App Purchase API (IAP) to purchase content, functionality, or services in an App will be rejected
+
+* Apps using IAP to purchase physical goods or goods and services used outside of the App will be rejected
+
+* Apps that use IAP to purchase credits or other currencies must consume those credits within the App
+
+* Apps that use IAP to purchase credits or other currencies that expire will be rejected
+
+* Content subscriptions using IAP must last a minimum of 7 days and be available to the user from all of their iOS devices
+
+* Apps that use IAP to purchase items must assign the correct Purchasability type
 Apps that use IAP to purchase access to built-in capabilities provided by iOS, watchOS, and tvOS, such as the camera or the gyroscope, or Apple-branded peripherals, such as Apple Pencil or Apple Keyboard, or Apple services, such as Apple Music access or iCloud storage, will be rejected
-Apps containing content or services that expire after a limited time will be rejected, except for specific approved content (e.g. films, television programs, music, books)
-Insurance Apps must be free, in legal-compliance in the regions distributed, and cannot use IAP
-In general, the more expensive your App, the more thoroughly we will review it
-Apps offering subscriptions must do so using IAP, Apple will share the same 70/30 revenue split with developers for these purchases, as set forth in the Program License Agreement
-Apps that link to external mechanisms for purchases or subscriptions to be used in the App, such as a "buy" button that goes to a web site to purchase a digital book, will be rejected
-Apps can read or play approved content (specifically magazines, newspapers, books, audio, music, video and cloud storage) that is subscribed to or purchased outside of the App, as long as there is no button or external link in the App to purchase the approved content. Apple will only receive a portion of revenues for content purchased inside the App
-Apps may only use auto-renewing subscriptions for periodicals (newspapers, magazines), business Apps (enterprise, productivity, professional creative, cloud storage), and media Apps (video, audio, voice), or the App will be rejected
-Apps may enable additional approved features or functionality when used in combination with specific approved physical products (such as a toy) as long as the additional features and functionality are either completely dependent on such hardware (for example an App that is used to control a telescope) or also available through the App without the physical products, such as by way of reward for achievement or by use of IAP
-Apps may facilitate transmission of approved virtual currencies provided that they do so in compliance with all state and federal laws for the territories in which the app functions
+
+* Apps containing content or services that expire after a limited time will be rejected, except for specific approved content (e.g. films, television programs, music, books)
+
+* Insurance Apps must be free, in legal-compliance in the regions distributed, and cannot use IAP
+
+* In general, the more expensive your App, the more thoroughly we will review it
+
+* Apps offering subscriptions must do so using IAP, Apple will share the same 70/30 revenue split with developers for these purchases, as set forth in the **Program License Agreement**
+
+* Apps that link to external mechanisms for purchases or subscriptions to be used in the App, such as a "buy" button that goes to a web site to purchase a digital book, will be rejected
+
+* Apps can read or play approved content (specifically magazines, newspapers, books, audio, music, video and cloud storage) that is subscribed to or purchased outside of the App, as long as there is no button or external link in the App to purchase the approved content. Apple will only receive a portion of revenues for content purchased inside the App
+
+* Apps may only use auto-renewing subscriptions for periodicals (newspapers, magazines), business Apps (enterprise, productivity, professional creative, cloud storage), and media Apps (video, audio, voice), or the App will be rejected
+
+* Apps may enable additional approved features or functionality when used in combination with specific approved physical products (such as a toy) as long as the additional features and functionality are either completely dependent on such hardware (for example an App that is used to control a telescope) or also available through the App without the physical products, such as by way of reward for achievement or by use of IAP
+
+* Apps may facilitate transmission of approved virtual currencies provided that they do so in compliance with all state and federal laws for the territories in which the app functions
 
 <span id="Scraping and aggregation"/>
-### Scraping and aggregation
+### 12. Scraping and aggregation
 
-Apps that scrape any information from Apple sites (for example from apple.com, iTunes Store, App Store, iTunes Connect, Apple Developer Programs, etc.) or create rankings using content from Apple sites and services will be rejected
-Apps may use approved Apple RSS feeds such as the iTunes Store RSS feed
-Apps that are simply web clippings, content aggregators, or a collection of links, may be rejected
+* Apps that scrape any information from Apple sites (for example from apple.com, iTunes Store, App Store, iTunes Connect, Apple Developer Programs, etc.) or create rankings using content from Apple sites and services will be rejected
+
+* Apps may use approved Apple RSS feeds such as the iTunes Store RSS feed
+
+* Apps that are simply web clippings, content aggregators, or a collection of links, may be rejected
 
 <span id="Damage or injury"/>
-### Damage or injury
+### 13. Damage or injury
 
-Apps that encourage users to use an Apple Device in a way that may cause damage to the device will be rejected
-Apps that rapidly drain the device's battery or generate excessive heat will be rejected
-Apps whose use may result in physical harm may be rejected
+* Apps that encourage users to use an Apple Device in a way that may cause damage to the device will be rejected
+
+* Apps that rapidly drain the device's battery or generate excessive heat will be rejected
+
+* Apps whose use may result in physical harm may be rejected
 
 <span id="Personal attacks"/>
-### Personal attacks
+### 14. Personal attacks
 
-Any App that is defamatory, offensive, mean-spirited, or likely to place the targeted individual or group in harm's way will be rejected
-Professional political satirists and humorists are exempt from the ban on offensive or mean-spirited commentary
-Apps that display user generated content must include a method for filtering objectionable material, a mechanism for users to flag offensive content, and the ability to block abusive users from the service
+* Any App that is defamatory, offensive, mean-spirited, or likely to place the targeted individual or group in harm's way will be rejected
+
+* Professional political satirists and humorists are exempt from the ban on offensive or mean-spirited commentary
+
+* Apps that display user generated content must include a method for filtering objectionable material, a mechanism for users to flag offensive content, and the ability to block abusive users from the service
 
 <span id="Violence"/>
-### Violence
+### 15. Violence
 
-Apps portraying realistic images of people or animals being killed or maimed, shot, stabbed, tortured or injured will be rejected
-Apps that depict violence or abuse of children will be rejected
-"Enemies" within the context of a game cannot solely target a specific race, culture, a real government or corporation, or any other real entity
-Apps involving realistic depictions of weapons in such a way as to encourage illegal or reckless use of such weapons will be rejected
-Apps that include games of Russian roulette will be rejected
+* Apps portraying realistic images of people or animals being killed or maimed, shot, stabbed, tortured or injured will be rejected
+
+* Apps that depict violence or abuse of children will be rejected
+
+* "Enemies" within the context of a game cannot solely target a specific race, culture, a real government or corporation, or any other real entity
+
+* Apps involving realistic depictions of weapons in such a way as to encourage illegal or reckless use of such weapons will be rejected
+
+* Apps that include games of Russian roulette will be rejected
 
 <span id="Objectionable content"/>
-### Objectionable content
+### 16. Objectionable content
 
-Apps that present excessively objectionable or crude content will be rejected
-Apps that are primarily designed to upset or disgust users will be rejected
+* Apps that present excessively objectionable or crude content will be rejected
+
+* Apps that are primarily designed to upset or disgust users will be rejected
 
 <span id="Privacy"/>
-### Privacy
+### 17. Privacy
 
-Apps cannot transmit data about a user without obtaining the user's prior permission and providing the user with access to information about how and where the data will be used
-Apps that require users to share personal information, such as email address and date of birth, in order to function will be rejected
-Apps may ask for date of birth (or use other age-gating mechanisms) only for the purpose of complying with applicable children's privacy statutes, but must include some useful functionality or entertainment value regardless of the user's age
-Apps that collect, transmit, or have the capability to share personal information (e.g. name, address, email, location, photos, videos, drawings, the ability to chat, other personal data, or persistent identifiers used in combination with any of the above) from a minor must comply with applicable children's privacy statutes, and must include a privacy policy
-Apps that include account registration or access a user’s existing account must include a privacy policy or they will be rejected
+* Apps cannot transmit data about a user without obtaining the user's prior permission and providing the user with access to information about how and where the data will be used
+
+* Apps that require users to share personal information, such as email address and date of birth, in order to function will be rejected
+
+* Apps may ask for date of birth (or use other age-gating mechanisms) only for the purpose of complying with applicable children's privacy statutes, but must include some useful functionality or entertainment value regardless of the user's age
+
+* Apps that collect, transmit, or have the capability to share personal information (e.g. name, address, email, location, photos, videos, drawings, the ability to chat, other personal data, or persistent identifiers used in combination with any of the above) from a minor must comply with applicable children's privacy statutes, and must include a privacy policy
+
+* Apps that include account registration or access a user’s existing account must include a privacy policy or they will be rejected
 
 <span id="Pornography"/>
-### Pornography
+### 18. Pornography
 
-Apps containing pornographic material, defined by Webster's Dictionary as "explicit descriptions or displays of sexual organs or activities intended to stimulate erotic rather than aesthetic or emotional feelings", will be rejected
-Apps that contain user generated content that is frequently pornographic (e.g. "Chat Roulette" Apps) will be rejected
+* Apps containing pornographic material, defined by Webster's Dictionary as "explicit descriptions or displays of sexual organs or activities intended to stimulate erotic rather than aesthetic or emotional feelings", will be rejected
+
+* Apps that contain user generated content that is frequently pornographic (e.g. "Chat Roulette" Apps) will be rejected
 
 <span id="Religion, culture, and ethnicity"/>
-### Religion, culture, and ethnicity
+### 19. Religion, culture, and ethnicity
 
-Apps containing references or commentary about a religious, cultural or ethnic group that are defamatory, offensive, mean-spirited or likely to expose the targeted group to harm or violence will be rejected
-Apps may contain or quote religious text provided the quotes or translations are accurate and not misleading. Commentary should be educational or informative rather than inflammatory
+* Apps containing references or commentary about a religious, cultural or ethnic group that are defamatory, offensive, mean-spirited or likely to expose the targeted group to harm or violence will be rejected
+
+* Apps may contain or quote religious text provided the quotes or translations are accurate and not misleading. Commentary should be educational or informative rather than inflammatory
 
 <span id="Contests, sweepstakes, lotteries, raffles, and gambling"/>
-### Contests, sweepstakes, lotteries, raffles, and gambling
+### 20. Contests, sweepstakes, lotteries, raffles, and gambling
 
-Sweepstakes and contests must be sponsored by the developer/company of the App
-Official rules for sweepstakes and contests must be presented in the App and make it clear that Apple is not a sponsor or involved in the activity in any manner
-It must be permissible by law for the developer to run a lottery App, and a lottery App must have all of the following characteristics: consideration, chance, and a prize
-Apps that allow a user to directly purchase a raffle ticket in the App will be rejected
-Apps that offer real money gaming (e.g. sports betting, poker, casino games, horse racing) or lotteries must have necessary licensing and permissions in the locations where the App is used, must be restricted to those locations, and must be free on the App Store
-Apps that use IAP to purchase credit or currency to use in conjunction with real money gaming will be rejected
+* Sweepstakes and contests must be sponsored by the developer/company of the App
+
+* Official rules for sweepstakes and contests must be presented in the App and make it clear that Apple is not a sponsor or involved in the activity in any manner
+
+* It must be permissible by law for the developer to run a lottery App, and a lottery App must have all of the following characteristics: consideration, chance, and a prize
+
+* Apps that allow a user to directly purchase a raffle ticket in the App will be rejected
+
+* Apps that offer real money gaming (e.g. sports betting, poker, casino games, horse racing) or lotteries must have necessary licensing and permissions in the locations where the App is used, must be restricted to those locations, and must be free on the App Store
+
+* Apps that use IAP to purchase credit or currency to use in conjunction with real money gaming will be rejected
 
 <span id="Charities and contributions"/>
-### Charities and contributions
+### 21. Charities and contributions
 
-Apps that include the ability to make donations to recognized charitable organizations must be free
-The collection of charitable donations must be done via a web site in Safari or an SMS
+* Apps that include the ability to make donations to recognized charitable organizations must be free
+
+* The collection of charitable donations must be done via a web site in Safari or an SMS
 
 <span id="Legal requirements"/>
-### Legal requirements
+### 22. Legal requirements
 
-Apps must comply with all legal requirements in any location where they are made available to users. It is the developer's obligation to understand and conform to all local laws
-Apps that contain false, fraudulent or misleading representations or use names or icons similar to other Apps will be rejected
-Apps that solicit, promote, or encourage criminal or clearly reckless behavior will be rejected
-Apps that enable illegal file sharing will be rejected
-Apps that are designed for use as illegal gambling aids, including card counters, will be rejected
-Apps that enable anonymous or prank phone calls or SMS/MMS messaging will be rejected
-Developers who create Apps that surreptitiously attempt to discover user passwords or other private user data will be removed from the iOS Developer Program
-Apps that contain DUI checkpoints that are not published by law enforcement agencies, or encourage and enable drunk driving, will be rejected
-Apps that calculate medicinal dosages must be submitted by the manufacturer of those medications or recognized institutions such as hospitals, insurance companies, and universities
-Apps that use iTunes music previews in an unauthorized manner will be rejected
+* Apps must comply with all legal requirements in any location where they are made available to users. It is the developer's obligation to understand and conform to all local laws
+
+* Apps that contain false, fraudulent or misleading representations or use names or icons similar to other Apps will be rejected
+
+* Apps that solicit, promote, or encourage criminal or clearly reckless behavior will be rejected
+
+* Apps that enable illegal file sharing will be rejected
+
+* Apps that are designed for use as illegal gambling aids, including card counters, will be rejected
+
+* Apps that enable anonymous or prank phone calls or SMS/MMS messaging will be rejected
+
+* Developers who create Apps that surreptitiously attempt to discover user passwords or other private user data will be removed from the iOS Developer Program
+
+* Apps that contain DUI checkpoints that are not published by law enforcement agencies, or encourage and enable drunk driving, will be rejected
+
+* Apps that calculate medicinal dosages must be submitted by the manufacturer of those medications or recognized institutions such as hospitals, insurance companies, and universities
+
+* Apps that use iTunes music previews in an unauthorized manner will be rejected
 
 <span id="Wallet"/>
-### Wallet
+### 23. Wallet
 
-Wallet passes can be used to make or receive payments, transmit offers, or offer identification (such as movie tickets, airline tickets, coupons and reward offers). Other uses may result in the rejection of the App and the revocation of Wallet credentials
-Passes must include valid contact information from the issuer of the pass or the App will be rejected and Wallet credentials may be revoked
-Passes must be signed by the entity that will be distributing the pass under its own name, trademark, or brand or the App will be rejected and Wallet credentials may be revoked
+* Wallet passes can be used to make or receive payments, transmit offers, or offer identification (such as movie tickets, airline tickets, coupons and reward offers). Other uses may result in the rejection of the App and the revocation of Wallet credentials
+
+* Passes must include valid contact information from the issuer of the pass or the App will be rejected and Wallet credentials may be revoked
+
+* Passes must be signed by the entity that will be distributing the pass under its own name, trademark, or brand or the App will be rejected and Wallet credentials may be revoked
 
 <span id="Kids Category"/>
-### Kids Category
+### 24. Kids Category
 
-Apps in the Kids Category must include a privacy policy and must comply with applicable children's privacy statutes
-Apps in the Kids Category may not include behavioral advertising (e.g. the advertiser may not serve ads based on the user's activity within the App), and any contextual ads presented in the App must be appropriate for kids
-Apps in the Kids Category must get parental permission or use a parental gate before allowing the user to link out of the app or engage in commerce
-Apps in the Kids Category must be made specifically for kids ages 5 and under, ages 6-8, or ages 9-11
+* Apps in the Kids Category must include a privacy policy and must comply with applicable children's privacy statutes
+
+* Apps in the Kids Category may not include behavioral advertising (e.g. the advertiser may not serve ads based on the user's activity within the App), and any contextual ads presented in the App must be appropriate for kids
+
+* Apps in the Kids Category must get parental permission or use a parental gate before allowing the user to link out of the app or engage in commerce
+
+* Apps in the Kids Category must be made specifically for kids ages 5 and under, ages 6-8, or ages 9-11
 
 <span id="Extensions"/>
-### Extensions
+### 25. Extensions
 
-Apps hosting extensions must comply with the App Extension Programming Guide
-Apps hosting extensions must provide some functionality (help screens, additional settings) or they will be rejected
-Apps hosting extensions that include marketing, advertising, or in-app purchases in their extension view will be rejected
-Keyboard extensions must provide a method for progressing to the next keyboard
+* Apps hosting extensions must comply with the **App Extension Programming Guide**
+
+* Apps hosting extensions must provide some functionality (help screens, additional settings) or they will be rejected
+
+* Apps hosting extensions that include marketing, advertising, or in-app purchases in their extension view will be rejected
+
+* Keyboard extensions must provide a method for progressing to the next keyboard
 Keyboard extensions must remain functional with no network access or they will be rejected
-Keyboard extensions must provide Number and Decimal keyboard types as described in the App Extension Programming Guide or they will be rejected
-Apps offering Keyboard extensions must provide keyboard functionality (e.g. typed characters), have a primary category of Utilities and a privacy policy or they will be rejected
-Apps offering Keyboard extensions may only collect user activity to enhance the functionality of their keyboard extension on the iOS device or they may be rejected
+
+* Keyboard extensions must provide Number and Decimal keyboard types as described in the **App Extension Programming Guide** or they will be rejected
+
+* Apps offering Keyboard extensions must provide keyboard functionality (e.g. typed characters), have a primary category of Utilities and a privacy policy or they will be rejected
+
+* Apps offering Keyboard extensions may only collect user activity to enhance the functionality of their keyboard extension on the iOS device or they may be rejected
 
 <span id="HomeKit"/>
-### HomeKit
+### 26. HomeKit
 
-Apps using the HomeKit framework must have a primary purpose of providing home automation services
-Apps using the HomeKit framework must indicate this usage in their marketing text and they must provide a privacy policy or they will be rejected
-Apps must not use data gathered from the HomeKit APIs for advertising or other use-based data mining
-Apps using data gathered from the HomeKit API for purposes other than improving the user experience or hardware/software performance in providing home automation functionality will be rejected
+* Apps using the HomeKit framework must have a primary purpose of providing home automation services
+
+* Apps using the HomeKit framework must indicate this usage in their marketing text and they must provide a privacy policy or they will be rejected
+
+* Apps must not use data gathered from the HomeKit APIs for advertising or other use-based data mining
+
+* Apps using data gathered from the HomeKit API for purposes other than improving the user experience or hardware/software performance in providing home automation functionality will be rejected
 
 <span id="HealthKit, CareKit, and Human Subject Research"/>
-### HealthKit, CareKit, and Human Subject Research
+### 27. HealthKit, CareKit, and Human Subject Research
 
-Apps using the HealthKit or CareKit frameworks or conducting human subject research for health purposes, such as through the use of ResearchKit, must comply with applicable law for each Territory in which the App is made available, as well as Sections 3.3.28 and 3.3.39 of the iOS Developer Program License Agreement
-Apps that write false or inaccurate data into HealthKit or CareKit will be rejected
-Apps using the HealthKit framework that store users’ health information in iCloud will be rejected
-Apps may not use or disclose to third parties user data gathered from the HealthKit or CareKit APIs or from health-related human subject research for advertising or other use-based data mining purposes other than improving health, or for the purpose of health research
-Apps that share user data acquired via the HealthKit or CareKit APIs with third parties without user consent will be rejected
-Apps using the HealthKit or CareKit frameworks must indicate integration with the Health app in their marketing text and must clearly identify the HealthKit and CareKit functionality in the app’s user interface
-Apps using the HealthKit or CareKit frameworks or conducting human subject research must provide a privacy policy or they will be rejected
-Apps that provide diagnoses, treatment advice, or control hardware designed to diagnose or treat medical conditions that do not provide written regulatory approval upon request will be rejected
-Apps conducting health-related human subject research must obtain consent from participants or, in the case of minors, their parent or guardian. Such consent must include the (a) nature, purpose, and duration of the research; (b) procedures, risks, and benefits to the participant; (c) information about confidentiality and handling of data (including any sharing with third parties); (d) a point of contact for participant questions; and (e) the withdrawal process
-Apps conducting health-related human subject research must secure approval from an independent ethics review board. Proof of such approval must be provided upon request.
+* Apps using the HealthKit or CareKit frameworks or conducting human subject research for health purposes, such as through the use of ResearchKit, must comply with applicable law for each Territory in which the App is made available, as well as Sections 3.3.28 and 3.3.39 of the **iOS Developer Program License Agreement**
+
+* Apps that write false or inaccurate data into HealthKit or CareKit will be rejected
+
+* Apps using the HealthKit framework that store users’ health information in iCloud will be rejected
+
+* Apps may not use or disclose to third parties user data gathered from the HealthKit or CareKit APIs or from health-related human subject research for advertising or other use-based data mining purposes other than improving health, or for the purpose of health research
+
+* Apps that share user data acquired via the HealthKit or CareKit APIs with third parties without user consent will be rejected
+
+* Apps using the HealthKit or CareKit frameworks must indicate integration with the Health app in their marketing text and must clearly identify the HealthKit and CareKit functionality in the app’s user interface
+
+* Apps using the HealthKit or CareKit frameworks or conducting human subject research must provide a privacy policy or they will be rejected
+
+* Apps that provide diagnoses, treatment advice, or control hardware designed to diagnose or treat medical conditions that do not provide written regulatory approval upon request will be rejected
+
+* Apps conducting health-related human subject research must obtain consent from participants or, in the case of minors, their parent or guardian. Such consent must include the 
+	- (a) nature, purpose, and duration of the research; 
+	- (b) procedures, risks, and benefits to the participant; 
+	- (c) information about confidentiality and handling of data (including any sharing with third parties); 
+	- (d) a point of contact for participant questions; and 
+	- (e) the withdrawal process
+
+* Apps conducting health-related human subject research must secure approval from an independent ethics review board. Proof of such approval must be provided upon request.
 
 <span id="TestFlight"/>
-### TestFlight
+### 28. TestFlight
 
-Apps may only use TestFlight to beta test apps intended for public distribution and must comply with the full App Review Guidelines
-Apps using TestFlight must be submitted for review whenever a build contains material changes to content or functionality
-Apps using TestFlight may not be distributed to testers in exchange for compensation of any kind
+* Apps may only use TestFlight to beta test apps intended for public distribution and must comply with the full App Review Guidelines
+
+* Apps using TestFlight must be submitted for review whenever a build contains material changes to content or functionality
+
+* Apps using TestFlight may not be distributed to testers in exchange for compensation of any kind
 
 <span id="Apple Pay"/>
-### Apple Pay
+### 29. Apple Pay
 
-Apps using Apple Pay must provide all material purchase information to the user prior to sale of any good or service or they will be rejected; Apps using Apple Pay to offer recurring payments must, at a minimum, disclose the length of the renewal term and the fact that it will continue until canceled, what will be provided during each period, the charges that will be billed to the customer, and how to cancel.
-Apps using Apple Pay must use Apple Pay branding and user interface elements correctly and as described in the Apple Pay Identity Guidelines or they will be rejected
-Apps using Apple Pay as a purchasing mechanism may not offer goods or services that violate the law of any territory in which the good or service will be delivered and may not be used for any illegal purpose
-Apps using Apple Pay must provide a privacy policy or they will be rejected
-Apps using Apple Pay may only share user data acquired via Apple Pay with third parties when provided to facilitate or improve delivery of goods and services or to comply with legal requirements
+* Apps using Apple Pay must provide all material purchase information to the user prior to sale of any good or service or they will be rejected; Apps using Apple Pay to offer recurring payments must, at a minimum, disclose the length of the renewal term and the fact that it will continue until canceled, what will be provided during each period, the charges that will be billed to the customer, and how to cancel.
+
+* Apps using Apple Pay must use Apple Pay branding and user interface elements correctly and as described in the **Apple Pay Identity Guidelines** or they will be rejected
+
+* Apps using Apple Pay as a purchasing mechanism may not offer goods or services that violate the law of any territory in which the good or service will be delivered and may not be used for any illegal purpose
+
+* Apps using Apple Pay must provide a privacy policy or they will be rejected
+
+* Apps using Apple Pay may only share user data acquired via Apple Pay with third parties when provided to facilitate or improve delivery of goods and services or to comply with legal requirements
 
 <span id="Apple Music API"/>
-### Apple Music API 
+### 30. Apple Music API 
 
-Apps using the Apple Music API that trigger playback without explicit user action will be rejected
-Apps using the Apple Music API must expose and respect standard media controls such as “play,” pause,” and “skip”
-Apps using the Apple Music API may not require payment or otherwise monetize access to the Apple Music service (e.g. in-app purchase, advertising, requesting user info)
-Living document
+* Apps using the Apple Music API that trigger playback without explicit user action will be rejected
 
-This document represents our best efforts to share how we review Apps submitted to the App Store, and we hope it is a helpful guide as you develop and submit your Apps. It is a living document that will evolve as we are presented with new Apps and situations, and we'll update it periodically to reflect these changes.
+* Apps using the Apple Music API must expose and respect standard media controls such as “play,” pause,” and “skip”
 
-Thank you for developing for iOS. Even though this document is a formidable list of what not to do, please also keep in mind the much shorter list of what you must do. Above all else, join us in trying to surprise and delight users. Show them their world in innovative ways, and let them interact with it like never before. In our experience, users really respond to polish, both in functionality and user interface. Go the extra mile. Give them more than they expect. And take them places where they have never been before. We are ready to help.
+* Apps using the Apple Music API may not require payment or otherwise monetize access to the Apple Music service (e.g. in-app purchase, advertising, requesting user info)
 
-##### © Apple, 2016**
+>#### Living document
+
+> This document represents our best efforts to share how we review Apps submitted to the App Store, and we hope it is a helpful guide as you develop and submit your Apps. It is a living document that will evolve as we are presented with new Apps and situations, and we'll update it periodically to reflect these changes.
+
+>Thank you for developing for iOS. Even though this document is a formidable list of what not to do, please also keep in mind the much shorter list of what you must do. Above all else, join us in trying to surprise and delight users. Show them their world in innovative ways, and let them interact with it like never before. In our experience, users really respond to polish, both in functionality and user interface. Go the extra mile. Give them more than they expect. And take them places where they have never been before. We are ready to help.
+
+> ###### © Apple, 2016
