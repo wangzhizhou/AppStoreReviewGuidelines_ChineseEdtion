@@ -67,6 +67,50 @@ localhost:Downloads wangzhizhou$ sudo reboot
 我靠，开机后居然不能引导，经过不断的百度，有网友称Ubuntu只对64位版本提供UEFI引导模式，呜呼，又得重新来一遍。先下载一个64位版的Ubuntu安装镜像，然后再重新来一次吧。如果使用传统BIOS引导完全不存在这种情况。
 
 
+**这次文件名为：`ubuntu-16.04-desktop-amd64.iso`,就不一一说明了，直接贴命令行：**
+
+```
+localhost:Downloads JokerAtBaoFeng$ diskutil list
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *251.0 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:          Apple_CoreStorage Macintosh HD            250.1 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+/dev/disk1 (internal, virtual):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                  Apple_HFS Macintosh HD           +249.8 GB   disk1
+                                 Logical Volume on disk0s2
+                                 3B2115D8-1852-411F-9052-ABA876FD6128
+                                 Unencrypted
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *61.9 GB    disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:                  Apple_HFS Ubuntu16.04_64          61.6 GB    disk2s2
+localhost:Downloads JokerAtBaoFeng$ diskutil unmountDisk /dev/disk2
+Unmount of all volumes on disk2 was successful
+localhost:Downloads JokerAtBaoFeng$ hdiutil convert -format UDRW -o ubuntu-16.04-desktop-amd64 ubuntu-16.04-desktop-amd64.iso
+正在读取Driver Descriptor Map（DDM：0）…
+正在读取Ubuntu 16.04 LTS amd64          （Apple_ISO：1）…
+正在读取Apple（Apple_partition_map：2）…
+正在读取Ubuntu 16.04 LTS amd64          （Apple_ISO：3）…
+..............................................................................
+正在读取EFI（Apple_HFS：4）…
+..............................................................................
+正在读取Ubuntu 16.04 LTS amd64          （Apple_ISO：5）…
+..............................................................................
+已耗时： 3.304s
+速度：428.8M 字节/秒
+节省：0.0%
+created: /Users/JokerAtBaoFeng/Downloads/ubuntu-16.04-desktop-amd64.dmg
+localhost:Downloads JokerAtBaoFeng$ sudo dd if=ubuntu-16.04-desktop-amd64.dmg of=/dev/rdisk2 bs=1024m
+Password:
+1+1 records in
+1+1 records out
+1485881344 bytes transferred in 95.220324 secs (15604666 bytes/sec)
+```
+系统镜像写入完成后，会弹出一个对话框，选择忽略即可。这次应该可以了，64位Ubuntu支持UEFI启动，并且我们的U盘已经按GUID分区方案分过区，现在重启Mac，并按住`option`不放即可。启动菜单这次会弹出U盘安装盘选项了。
 
 
 
