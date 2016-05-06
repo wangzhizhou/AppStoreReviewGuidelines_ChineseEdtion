@@ -64,6 +64,8 @@ localhost:Downloads wangzhizhou$ sudo reboot
 
 之后就是正常的安装Ubuntu了，自己去摸索吧～
 
+我靠，开机后居然不能引导，经过不断的百度，有网友称Ubuntu只对64位版本提供UEFI引导模式，呜呼，又得重新来一遍。先下载一个64位版的Ubuntu安装镜像，然后再重新来一次吧。如果使用传统BIOS引导完全不存在这种情况。
+
 
 
 
