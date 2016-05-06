@@ -15,18 +15,30 @@ We view Apps different than books or songs, which we do not curate. If you want 
 
 * We have lots of kids downloading lots of Apps. Parental controls work great to protect kids, but you have to do your part too. So know that we're keeping an eye out for the kids.
 
-* 
+* 应用商店中有超过一百万个应用程序。如果你的应用程序没有一些独特有用的功能，无法提供某种形式的持续性娱乐，或者纯粹的哗众取宠，那么它可能不会被应用商店接受。
+
 * We have over a million Apps in the App Store. If your App doesn't do something useful, unique or provide some form of lasting entertainment, or if your app is plain creepy, it may not be accepted.
 
+* 如果你的应用程序看上去像是那种只花了几天功夫简单拼凑出来的产品，或者只是试图在应用商店上架你的第一个试验性的应用程序来抓住你朋友的眼球，请提前做好被拒绝的准备。我们有很多态度严谨的开发者，不希望他们的高品质应用程序充斥在一些业余作品之中。
 * If your App looks like it was cobbled together in a few days, or you're trying to get your first practice App into the store to impress your friends, please brace yourself for rejection. We have lots of serious developers who don't want their quality Apps to be surrounded by amateur hour.
+
+* 我们拒绝任何包含违规内容或行为的应用程序。你可能会问这些具体限制是什么？最高法院的法官曾说过："当它出现时我们自然心中有数"。所以我们认为，当你违规时，其实心里是知道的。
 
 * We will reject Apps for any content or behavior that we believe is over the line. What line, you ask? Well, as a Supreme Court Justice once said, "I'll know it when I see it". And we think that you will also know it when you cross it.
 
+* 如果你的应用程序被拒绝，我们还设立了一个审查委员会供你上诉。如果你去媒体抨击我们，那是于事无补的。
+
 * If your App is rejected, we have a Review Board that you can appeal to. If you run to the press and trash us, it never helps.
+
+* 如果你试图作弊（比如在审核过程中耍花招、窃取用户数据、抄袭其他开发者作品，或者篡改应用评分），你的应用程序会被应用商店下架，并且还会从开发者计划中将你除名。
 
 * If you attempt to cheat the system (for example, by trying to trick the review process, steal data from users, copy another developer's work, or manipulate the ratings) your Apps will be removed from the store and you will be expelled from the developer program.
 
+* 这是一份动态文档，会随着应用程序产生的各种问题实时更新审查规则，或许你的应用程序就会触及这一点。
+
 * This is a living document, and new Apps presenting new questions may result in new rules at any time. Perhaps your App will trigger this.
+
+最后要说明的是，我们珍视应用商店这个平台，也非常尊重开发者的劳动成果。我们确实在尽力创建全球最佳平台，以便让开发者展示才华，同时还可以赚钱谋生。如果这些审查规则让你感觉我们的控制欲过强，那是因为我们曾向像你一样的用户承诺过，我们要用我们的产品让用户获得高品质体验。
 
 Lastly, we love this stuff too, and honor what you do. We're really trying our best to create the best platform in the world for you to express your talents and make a living too. If it sounds like we're control freaks, well, maybe it's because we're so committed to our users and making sure they have a quality experience with our products. Just like almost all of you are, too.
 
