@@ -112,6 +112,69 @@ Password:
 ```
 系统镜像写入完成后，会弹出一个对话框，选择忽略即可。这次应该可以了，64位Ubuntu支持UEFI启动，并且我们的U盘已经按GUID分区方案分过区，现在重启Mac，并按住`option`不放即可。启动菜单这次会弹出U盘安装盘选项了。
 
+哦这里又出现问题了，按住`option`重启后依然没有引导项，这是因为安装过程中，EFI引导文件被安装到了系统磁盘的EFI分区了，我们需要把那个文件拷到安装系统的U盘上的那个EFI分区。我们进入Mactonish HD，启动OS X，在命令行中把所有磁盘都列出来：
 
+```
+localhost:ubuntu wangzhizhou$ diskutil list
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *121.3 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:          Apple_CoreStorage Macintosh HD            120.5 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+/dev/disk1 (internal, virtual):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                  Apple_HFS Macintosh HD           +120.1 GB   disk1
+                                 Logical Volume on disk0s2
+                                 DA03CC12-7D54-44AA-ADC8-424073352296
+                                 Unlocked Encrypted
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *62.6 GB    disk2
+   1:                        EFI NO NAME                 499.1 MB   disk2s1
+   2:        Bios Boot Partition                         127.9 MB   disk2s2
+   3:                 Linux Swap                         4.1 GB     disk2s3
+   4:           Linux Filesystem                         57.9 GB    disk2s4
+   ```
+我们将EFI分区：`/dev/disk0s1`和`/dev/disk2s1`都挂载到路径`/Volumes`下，使用下面的命令：
 
+```
+localhost:~ wangzhizhou$ diskutil mount /dev/disk0s1;diskutil mount /dev/disk2s1
+Volume EFI on /dev/disk0s1 mounted
+Volume NO NAME on /dev/disk2s1 mounted
+localhost:~ wangzhizhou$ ls /Volumes/
+EFI		Macintosh HD	NO NAME
+localhost:NO NAME wangzhizhou$ ls /Volumes/EFI/ /Volumes/NO\ NAME/
+/Volumes/EFI/:
+EFI
+
+/Volumes/NO NAME/:
+```
+`/Volumes`下`EFI`和`NO NAME`目录就是两个EFI分区的挂载点，你发现`/Volumes/NO NAME/`目录下面什么也没有，这就是为什么U盘系统盘已经安装成功了却没法引导。因为它们错误的安装在了`/dev/disk0s1`下了,也就是挂载点`/Volumes/EFI`下了,我们需要把这些文件复制到`/Volumes/NO NAME/`,下，并作一些调整，用命令行说明吧，文字有点不太清楚了：
+
+```
+localhost:NO NAME wangzhizhou$ cp -r /Volumes/EFI/* /Volumes/NO\ NAME/
+localhost:EFI wangzhizhou$ cd /Volumes/NO\ NAME/EFI/
+localhost:EFI wangzhizhou$ ls
+APPLE	ubuntu
+localhost:EFI wangzhizhou$ pwd
+/Volumes/NO NAME/EFI
+localhost:EFI wangzhizhou$ rm -rf APPLE/
+localhost:EFI wangzhizhou$ mkdir boot
+localhost:EFI wangzhizhou$ cp ubuntu/grubx64.efi boot/bootx64.efi
+localhost:EFI wangzhizhou$ cd /Volumes/EFI/EFI/
+localhost:EFI wangzhizhou$ ls
+APPLE	ubuntu
+localhost:EFI wangzhizhou$ rm -rf ubuntu/
+localhost:EFI wangzhizhou$ cd /Volumes/
+localhost:Volumes wangzhizhou$ diskutil umount EFI;diskutil umount NO\ NAME/
+Volume EFI on disk0s1 unmounted
+Unmount successful for NO NAME/
+```
+
+好了我们的系统U盘上的EFI分区已经有了引导信息，这次按住`option`并重启应该能够引导Ubuntu启动了。
+
+```
+localhost:Volumes wangzhizhou$ sudo reboot
+```
 	
