@@ -44,170 +44,235 @@ Lastly, we love this stuff too, and honor what you do. We're really trying our b
 
 ## Table of Contents
 
-1. [Terms and conditions](#Terms and conditions)
-2. [Functionality](#Functionality)
-3. [Metadata](#Metadata)
-4. [Location](#Location)
-5. [Push Notifications](#Push Notifications)
-6. [Game Center](#Game Center)
-7. [Advertising](#Advertising)
-8. [Content and Intellectual Property Rights](#Content and Intellectual Property Rights)
-9. [Media content](#Media content)
-10. [User interface](#User interface)
-11. [Purchasing and currencies](#Purchasing and currencies)
-12. [Scraping and aggregation](#Scraping and aggregation)
-13. [Damage or injury](#Damage or injury)
-14. [Personal attacks](#Personal attacks)
-15. [Violence](#Violence)
-16. [Objectionable content](#Objectionable content)
-17. [Privacy](#Privacy)
-18. [Pornography](#Pornography)
-19. [Religion, culture, and ethnicity](#Religion, culture, and ethnicity)
-20. [Contests, sweepstakes, lotteries, raffles, and gambling](#Contests, sweepstakes, lotteries, raffles, and gambling)
-21. [Charities and contributions](#Charities and contributions)
-22. [Legal requirements](#Legal requirements)
-23. [Wallet](#Wallet)
-24. [Kids Category](#Kids Category)
-25. [Extensions](#Extensions)
-26. [HomeKit](#HomeKit)
-27. [HealthKit, CareKit, and Human Subject Research](#HealthKit, CareKit, and Human Subject Research)
-28. [TestFlight](#TestFlight)
-29. [Apple Pay](#Apple Pay)
-30. [Apple Music API](#Apple Music API)
+1. [Terms and conditions](#Terms and conditions) 条款和条件
+2. [Functionality](#Functionality) 功能
+3. [Metadata](#Metadata) 元数据
+4. [Location](#Location) 位置
+5. [Push Notifications](#Push Notifications) 推送通知
+6. [Game Center](#Game Center) 游戏中心
+7. [Advertising](#Advertising) 广告
+8. [Content and Intellectual Property Rights](#Content and Intellectual Property Rights) 内容和知识产权
+9. [Media content](#Media content) 媒体内容
+10. [User interface](#User interface) 用户界面
+11. [Purchasing and currencies](#Purchasing and currencies) 购买和货币
+12. [Scraping and aggregation](#Scraping and aggregation) 抓取和聚合
+13. [Damage or injury](#Damage or injury) 损害或伤害
+14. [Personal attacks](#Personal attacks) 人身攻击
+15. [Violence](#Violence) 暴力
+16. [Objectionable content](#Objectionable content) 令人反感的内容
+17. [Privacy](#Privacy) 隐私
+18. [Pornography](#Pornography) 色情
+19. [Religion, culture, and ethnicity](#Religion, culture, and ethnicity) 宗教、文化和种族
+20. [Contests, sweepstakes, lotteries, raffles, and gambling](#Contests, sweepstakes, lotteries, raffles, and gambling) 竞赛、赌博、彩票和抽奖
+21. [Charities and contributions](#Charities and contributions) 慈善和捐助
+22. [Legal requirements](#Legal requirements) 法律要件
+23. [Wallet](#Wallet) 钱包
+24. [Kids Category](#Kids Category) 儿童
+25. [Extensions](#Extensions) 扩展
+26. [HomeKit](#HomeKit) HomeKit
+27. [HealthKit, CareKit, and Human Subject Research](#HealthKit, CareKit, and Human Subject Research) 健康工具包, 医序工具包和人类主题研究
+28. [TestFlight](#TestFlight) TestFlight
+29. [Apple Pay](#Apple Pay) Apple Pay
+30. [Apple Music API](#Apple Music API) Apple Music API
 
 <span id="Terms and conditions"/>
-### 1. Terms and conditions
+### 1. Terms and conditions 条款和条件
+
+* 作为应用商店的应用开发者，你要遵守与苹果之间包括：程序许可证协议、人机接口指南以及其它一些许可和协议要求。下面的一些规则和示例只是为了帮助你的应用获得应用商店的认可，而不是修改或删除任何其他协议中的条款。
 
 * As a developer of Apps for the App Store you are bound by the terms of the **Program License Agreement** (PLA), **Human Interface Guidelines** (HIG), and any other licenses or contracts between you and Apple. The following rules and examples are intended to assist you in gaining acceptance for your App in the App Store, not to amend or remove provisions from any other agreement.
 
 <span id="Functionality"/>
-### 2. Functionality
+### 2. Functionality 功能
+
+* 发生崩溃的应用会被拒
 
 * Apps that crash will be rejected
 
+
+* 有bugs的应用会被拒
+
 * Apps that exhibit bugs will be rejected
 
+* 与开发者描述的表现不一致的应用会被拒
 * Apps that do not perform as advertised by the developer will be rejected
 
+* 无应用文档或隐藏功能与描述不符的程序将会被拒
 * Apps that include undocumented or hidden features inconsistent with the description of the App will be rejected
 
+* 使用未公开API的应用会被拒
 * Apps that use non-public APIs will be rejected
 
+* 读写指定容器域外数据的应用会被拒
 * Apps that read or write data outside its designated container area will be rejected
 
+* 以无论何种形式或方式下载代码的应用都会被拒
 * Apps that download code in any way or form will be rejected
 
+* 安装或启动其它可执行代码的应用会被拒
 * Apps that install or launch other executable code will be rejected
 
+* 示例、试用或测试版本的应用会被拒。Beta版应用只能通过TestFlight提交，并且必须遵守TestFlight相关指南。
 * Apps that are "demo", "trial", or "test" versions will be rejected. Beta Apps may only be submitted through TestFlight and must follow the TestFlight guidelines
 
+* iPhone应用必须能不经修改，以iPhone的分辨率和2倍iPhone 3GS的分辨率运行在iPad上
 * iPhone Apps must also run on iPad without modification, at iPhone resolution, and at 2X iPhone 3GS resolution
 
+* 与应用商店中已有应用重复的应用会被拒，特别是在数据众多的情况下，例如放屁、打嗝、手电筒和印度爱经之类的应用程序
 * Apps that duplicate Apps already in the App Store may be rejected, particularly if there are many of them, such as fart, burp, flashlight, and Kama Sutra Apps
 
+* 没有很大用处，不够特别或是仅仅通过打包简单网站，没有提供持续性娱乐功能的应用会被拒
 * Apps that are not very useful, unique, are simply web sites bundled as Apps, or do not provide any lasting entertainment value may be rejected
 
+* 内容主要是营销材料或广告的程序将会被拒绝
 * Apps that are primarily marketing materials or advertisements will be rejected
 
+* 包含没有标明的欺诈或虚假功能的应用程序会被拒
 * Apps that are intended to provide trick or fake functionality that are not clearly marked as such will be rejected
 
+* 大小超过100MB的应用不会通过蜂窝网被下载（应用商店会自己禁止这种情况发生）
 * Apps larger than 100MB in size will not download over cellular networks (this is automatically prohibited by the App Store)
 
+* 多任务程序使用后台服务仅限于几种目的：VoIP、音频播放、地理位置、完成任务以及本地提醒等
 * Multitasking Apps may only use background services for their intended purposes: VoIP, audio playback, location, task completion, local notifications, etc.
 
+* 浏览Web内容的应用必须使用WebKit框架和WebKit JavaScript
 * Apps that browse the web must use the iOS WebKit framework and WebKit Javascript
 
+* 鼓励酗酒或使用违禁药物，或引诱青少年饮酒或吸烟的程序会被拒
 * Apps that encourage excessive consumption of alcohol or illegal substances, or encourage minors to consume alcohol or smoke cigarettes, will be rejected
 
+* 提供错误的系统诊断或不精确的设备数据的应用将会被拒绝。
 * Apps that provide incorrect diagnostic or other inaccurate device data will be rejected
 
+* 向App Store上传大量相似版本程序的开发者将会从iOS开发者计划中除名
 * Developers "spamming" the App Store with many versions of similar Apps will be removed from the iOS Developer Program
 
+* 只是简单一首歌曲或者一部影片的应用应该提交到iTunes store，书籍类应用应该提交到iBookstore
 * Apps that are simply a song or movie should be submitted to the iTunes store. Apps that are simply a book should be submitted to the iBooks Store
 
+* 武断地根据环境（如定位或者运营商）限制用户使用的应用会被拒
 * Apps that arbitrarily restrict which users may use the App, such as by location or carrier, may be rejected
 
+* 应用必须遵守**iOS 数据存储指南**，否则会被拒
 * Apps must follow the **iOS Data Storage Guidelines** or they will be rejected
 
+* 存放在Newsstand的应用必须遵守开发者项目许可协议（Program License Agreement）的表1、表2以及表3，否则应用会被拒
 * Apps that are offered in Newsstand must comply with schedules 1, 2 and 3 of the **Program License Agreement** or they will be rejected
 
+* 使用户将其与App Store混淆，或者基于购买或者促销的目的而展示其他应用的应用将被拒
 * Apps that display Apps other than your own for purchase or promotion in a manner similar to or confusing with the App Store will be rejected
 
+* 只有当app是出于特殊审核需要（比如健康管理、航空以及无障碍需求等）或为特殊群体用户提供具有重大意义的附加值时，才可以展示和推荐自身以外的其他应用程序，否则应用程序将会被拒
 * Apps may display and recommend apps other than your own only if the collection is designed for a specific approved need (e.g. health management, aviation, accessibility, etc.) or provides significant added value for a specific group of customers, or they will be rejected
 
+* 如果应用的核心功能不能使用Siri遥控器会被拒。不过应用程序可以提供与游戏控制器或者其他周边设备相连接的增强功能
 * If your app’s core functionality doesn’t work with the Siri remote it will be rejected. The app may, however, provide enhanced functionality in connection with a game controller or other peripheral
 
 <span id="Metadata"/>
-### 3. Metadata (name, descriptions, ratings, rankings, etc.)
+### 3. Metadata (name, descriptions, ratings, rankings, etc.) 元数据
 
+* 应用或者元数据中提到其他任何移动平台的会被拒
 * Apps or metadata that mentions the name of any other mobile platform will be rejected
 
+* 带有占位符文本的应用会被拒
 * Apps with placeholder text will be rejected
 
+* 应用程序的名字、描述、截屏或预览与其本身不相关的会被拒
 * Apps with names, descriptions, screenshots, or previews not relevant to the content and functionality of the App will be rejected
 
+* 为了不混淆用户，iTunes Connect中的应用名称应该和展示在设备上的应用名称一致
 * App names in iTunes Connect and as displayed on a device should be similar, so as not to cause confusion
 
+* 不同尺寸的应用程序图标要一致，避免引起混淆
 * Small and large App icons should be similar, so as not to cause confusion
 
+* 应用程序的图标、截图、预览以及位于Apple TV主屏幕顶部展区的Apple TV应用的图片展示不符合4+年龄评级的程序将会拒
 * Apps with App icons, screenshots, previews, and images displayed when an Apple TV app is in the top shelf of the Apple TV home screen that do not adhere to the 4+ age rating will be rejected
 
+* 目录与类型不适合于程序内容的程序将会被拒
 * Apps with Category and Genre selections that are not appropriate for the App content will be rejected
 
+* 开发者负责为其应用指定合适的评级。不相称的评级可能会由苹果公司修改或删除
 * Developers are responsible for assigning appropriate ratings to their Apps. Inappropriate ratings may be changed/deleted by Apple
 
+* 开发者负责为其程序指定恰当的关键字。不恰当的关键词可能会被苹果公司修改/删除
 * Developers are responsible for assigning appropriate keywords for their Apps. Inappropriate keywords may be changed/deleted by Apple
 
+* 试图通过伪造评论或者付费评论的方式在AppStore中操纵或者其欺骗用户评论（或者采用其他不正当方式）以提升排名的开发者将会被苹果从iOS开发者计划中除名
 * Developers who attempt to manipulate or cheat the user reviews or chart ranking in the App Store with fake or paid reviews, or any other inappropriate methods will be removed from the iOS Developer Program
-Apps that recommend that users restart their iOS device prior to installation or launch may be rejected
 
+* 在安装或打开应用之前，推荐用户重启iOS设备的应用将会被拒
+* Apps that recommend that users restart their iOS device prior to installation or launch may be rejected
+
+* 提交审核的应用程序应包含能正常运行的URL，比如支持服务URL和隐私政策URL
 * Apps should have all included URLs fully functional when you submit it for review, such as support and privacy policy URLs
 
+* 应用程序的截图、预览或者营销文本没有清晰地指出附加内容或项目需要额外单独购买（比如使用IAP）将会被拒绝
 * Apps with screenshots, previews, and marketing text that do not clearly identify supplemental content or items that must be purchased separately (e.g. using IAP) will be rejected
 
+* 应用预览仅能使用从应用程序捕获的屏幕视频、旁白、文本以及设计浮层，否则应用程序会被拒
 * App previews may only use video screen captures of the app, narration, and textual and design overlays, or the app will be rejected
-Apps with previews that display personal information of a real person without permission will be rejected
 
+* 有应用预览，未经许可展示真实个人信息的应用会被拒
+* Apps with previews that display personal information of a real person without permission will be rejected
+
+* 应用预览仅能使用在所有选定地区内经过授权许可、用于此目的的音乐
 * App previews may only include music that is licensed for that purpose in all selected territories
 
+*  应用预览和截图包含未经授权通过（如音乐、视频以及以及相关封面艺术设计）播放的内容或流媒体会被拒
 * App previews and screenshots that include content played or streamed via the app (e.g. music, video, and related cover art) that is not licensed for use in the preview or screenshots will be rejected
 
 <span id="Location"/>
-### 4. Location
+### 4. Location 位置
 
+* 收集、传输或使用位置数据之前未通知并获得用户同意的应用会被拒
 * Apps that do not notify and obtain user consent before collecting, transmitting, or using location data will be rejected
 
+* 基于位置API，用于车辆、飞机或其他设备的自动控制或自主控制的应用程序会被拒
 * Apps that use location-based APIs for automatic or autonomous control of vehicles, aircraft, or other devices will be rejected
 
+* 基于位置API，用于应急服务的应用程序会被拒
 * Apps that use location-based APIs for emergency services will be rejected
 
+* 当与提供的功能或服务密切相关，或者为支持经过授权的广告时，应用程序才可以使用位置数据
 * Location data can only be used when directly relevant to the features and services provided by the App to the user or to support approved advertising uses
 
+* 使用后台位置服务的应用必须根据人机接口指南来说明使用该服务的原因和机制
 * Apps using background location services must provide a reason that clarifies the purpose of the use, using mechanisms described in the Human Interface Guidelines
 
 <span id="Push Notifications"/>
-### 5. Push Notifications
+### 5. Push Notifications 推送通知
 
+* 不使用苹果推送通知(APN)应用接口提供推送通知的应用会被拒
 * Apps that provide Push Notifications without using the Apple Push Notification (APN) API will be rejected
 
+* 未从苹果获得推送应用ID便擅自使用APN服务的程序会被拒
 * Apps that use the APN service without obtaining a Push Application ID from Apple will be rejected
 
+* 在首次推送消息或者要求运行推送通知之前未获得用户许可的应用会被拒
 * Apps that send Push Notifications without first obtaining user consent, as well as apps that require Push Notifications to function, will be rejected
 
+* 使用推送通知发送敏感个人信息或机密信息的应用会被拒
 * Apps that send sensitive personal or confidential information using Push Notifications will be rejected
 
+* 使用推送通知发送非请求消息，或用于钓鱼、群发垃圾信息用途的应用会被拒
 * Apps that use Push Notifications to send unsolicited messages, or for the purpose of phishing or spamming will be rejected
 
+* 应用程序不能使用推送通知发送广告、促销或任何类型的直销信息
 * Apps cannot use Push Notifications to send advertising, promotions, or direct marketing of any kind
 
+* 应用程序不能向使用推送通知服务的用户收取费用
 * Apps cannot charge users for use of Push Notifications
 
+* 过度使用APN服务网络流量或带宽，给设备带来过度负担的应用会被拒
 * Apps that excessively use the network capacity or bandwidth of the APN service or unduly burden a device with Push Notifications will be rejected
 
+* 传送病毒、文件、计算机代码或程序，或对APN服务的正常运行造成损害或中断的应用会被拒
 * Apps that transmit viruses, files, computer code, or programs that may harm or disrupt the normal operation of the APN service will be rejected
 
 <span id="Game Center"/>
-### 6. Game Center
+### 6. Game Center 游戏中心
 
 * Apps that display any Player ID to end users or any third party will be rejected
 
