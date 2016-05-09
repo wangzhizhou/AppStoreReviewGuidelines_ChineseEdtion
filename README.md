@@ -1,6 +1,5 @@
 
 # 应用商店审查指南
-**[[PDF中文版](https://github.com/wangzhizhou2014GitHub/AppStoreReviewGuidelines_ChineseEdtion/ch_aps_review_guidelines.pdf)]** **[[PDF英文版](https://github.com/wangzhizhou2014GitHub/AppStoreReviewGuidelines_ChineseEdtion/en_aps_review_guidelines.pdf)]** **[[PDF中英混合版](https://github.com/wangzhizhou2014GitHub/AppStoreReviewGuidelines_ChineseEdtion/ch_en_aps_review_guidelines.pdf)]**
 
 ## 序言  
 
