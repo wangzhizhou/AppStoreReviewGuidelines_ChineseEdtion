@@ -424,7 +424,7 @@ Lastly, we love this stuff too, and honor what you do. We're really trying our b
 * 在应用内使用跳转至外部购买或订阅链接的应用会被拒，比如"buy"按钮跳转至一个购买电子书的web页面
 * Apps that link to external mechanisms for purchases or subscriptions to be used in the App, such as a "buy" button that goes to a web site to purchase a digital book, will be rejected
 
-*只要应用内没有跳转至外部购买、订阅的按钮或链接，苹果允许这些应用读取或展示经批准的、在应用外购买或订阅的内容(特别是杂志、报纸、书籍、音频、音乐、视频以及云存储内容)。苹果只能通过应用程序内的购买获得一部分收益 
+* 只要应用内没有跳转至外部购买、订阅的按钮或链接，苹果允许这些应用读取或展示经批准的、在应用外购买或订阅的内容(特别是杂志、报纸、书籍、音频、音乐、视频以及云存储内容)。苹果只能通过应用程序内的购买获得一部分收益 
 * Apps can read or play approved content (specifically magazines, newspapers, books, audio, music, video and cloud storage) that is subscribed to or purchased outside of the App, as long as there is no button or external link in the App to purchase the approved content. Apple will only receive a portion of revenues for content purchased inside the App
 
 * 应用程序可以只使用自动更新订阅期刊(报纸、杂志)、商业应用程序(企业类、效率类、专业创意类以及云存储类)和媒体类应用程序(视频、音频、声音)，否则应用程序会被拒
